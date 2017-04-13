@@ -22,6 +22,16 @@ The third party libraries:
 
 Screenshots: 
 ---
+![image](https://github.com/Ashelyll/YizhiWeather/raw/master/screenshots/pic5.png)
+![image](https://github.com/Ashelyll/YizhiWeather/raw/master/screenshots/pic4.png)
+![image](https://github.com/Ashelyll/YizhiWeather/raw/master/screenshots/pic2.png)
+![image](https://github.com/Ashelyll/YizhiWeather/raw/master/screenshots/pic3.png)
+![image](https://github.com/Ashelyll/YizhiWeather/raw/master/screenshots/pic1.png)
+![image](https://github.com/Ashelyll/YizhiWeather/raw/master/screenshots/pic6.png)
+
+
+
+
 
 
    
