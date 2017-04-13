@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:trendattrs="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_weather_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_day"
+    android:orientation="vertical"> 
+
+        
+	<include layout="@layout/rl_weather_topbar"/>
+	
+	<xyz.matteobattilana.library.WeatherView 
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/weather_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:startingWeather="SUN"/>
+    
+    	<android.support.v4.widget.SwipeRefreshLayout 
+    		android:id="@+id/swipe_refresh_layout"
+    		android:layout_width="match_parent"
+   			android:layout_height="200dp"
+    		android:orientation="vertical">
+        	<com.yizhiweather.app.view.ElasticScrollView
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+	    		android:overScrollMode="never"
+            	android:scrollbars="none">
+            	<LinearLayout
+                	android:layout_width="match_parent"
+                	android:layout_height="wrap_content"
+                	android:orientation="vertical">
+                	<TextView
+                		android:id="@+id/tv_weather_status"
+                		android:layout_width="wrap_content"
+                		android:layout_height="wrap_content"
+                		android:layout_gravity="end"
+                		android:gravity="center"
+                		android:textColor="@color/swipeRefreshTextColor"
+                		android:textSize="15sp"
+                		android:visibility="invisible"/>
+                	<include layout="@layout/ll_weather_basic_info"/>    
+            	</LinearLayout>                    	            
+        	</com.yizhiweather.app.view.ElasticScrollView>        
+    	</android.support.v4.widget.SwipeRefreshLayout>    
+   
+    	<com.yizhiweather.app.view.ElasticScrollView
+    		android:layout_width="match_parent"
+    		android:layout_height="0dp"
+    		android:layout_weight="1"
+			android:overScrollMode="never"
+    		android:scrollbars="none">
+        	<LinearLayout 
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:orientation="vertical">             
+				<TextView 
+			    	android:layout_width="match_parent"
+			    	android:layout_height="wrap_content"
+			    	android:layout_marginTop="@dimen/rtl_margin_top"
+			    	android:layout_marginStart="@dimen/rtl_margin_start"
+			    	android:layout_marginEnd="@dimen/rtl_margin_end"
+			    	android:gravity="center_vertical|start"
+			    	android:textSize="15sp"
+			    	android:textColor="@color/weatherTextColor"
+			    	android:text="@string/temp_trend"/>
+				<View
+        			android:id="@+id/weather_divider_1"
+        			android:layout_width="match_parent"
+        			android:layout_height="1dp"
+        			android:layout_marginTop="2dp"
+        			android:background="@color/dividerColor"/>
+			
+				<com.yizhiweather.app.view.TrendView 
+			    	android:id="@+id/temp_trend"
+			    	android:layout_width="match_parent"
+			    	android:layout_height="180dp"
+					trendattrs:textSize="15sp"
+					trendattrs:textColor="@color/weatherTextColor">
+            	</com.yizhiweather.app.view.TrendView>     		
+    			<View
+        			android:id="@+id/weather_divider_2"
+        			android:layout_width="match_parent"
+        			android:layout_height="1dp"
+        			android:layout_marginTop="2dp"
+        			android:background="@color/dividerColor"/>
+        	
+    			<TextView 
+			    	android:layout_width="match_parent"
+			    	android:layout_height="wrap_content"
+			    	android:layout_marginTop="10dp"
+			    	android:layout_marginStart="@dimen/rtl_margin_start"
+			    	android:layout_marginEnd="@dimen/rtl_margin_end"
+			    	android:gravity="center_vertical|start"
+			    	android:textSize="15sp"
+			    	android:textColor="@color/weatherTextColor"
+			    	android:text="@string/forecast"/>
+    			<View
+        			android:id="@+id/weather_divider_3"
+        			android:layout_width="match_parent"
+        			android:layout_height="1dp"
+        			android:layout_marginTop="2dp"
+        			android:background="@color/dividerColor"/>
+    
+        		<com.yizhiweather.app.view.ForecastListView
+        			android:id="@+id/lv_weather_forecast_list"
+        			android:layout_width="match_parent"
+       				android:layout_height="wrap_content"
+        			android:layout_marginTop="10dp"
+        			android:layout_gravity="center_horizontal"
+        			android:scrollbars="none"
+					android:divider="@null">        
+    			</com.yizhiweather.app.view.ForecastListView>   
+    
+    			<View
+    		    	android:id="@+id/weather_divider_4"
+        			android:layout_width="match_parent"
+        			android:layout_height="1dp"
+        			android:layout_marginTop="2dp"
+        			android:background="@color/dividerColor"/>
+              
+   				<include layout="@layout/ll_weather_now_description"/>
+    
+     			<View
+     		    	android:id="@+id/weather_divider_5"
+        			android:layout_width="match_parent"
+        			android:layout_height="1dp"
+        			android:layout_marginTop="2dp"
+        			android:background="@color/dividerColor"/>
+    			<include layout="@layout/ll_weather_other_info"/>
+      		</LinearLayout>        
+    	</com.yizhiweather.app.view.ElasticScrollView> 
+    
+    	<View
+        	android:id="@+id/weather_divider_6"
+        	android:layout_width="match_parent"
+        	android:layout_height="1dp"
+        	android:layout_marginTop="2dp"
+        	android:background="@color/dividerColor"/>
+    	<include layout="@layout/rl_weather_bottombar"/>         
+</LinearLayout>

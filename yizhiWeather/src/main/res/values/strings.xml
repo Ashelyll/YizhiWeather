@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">易知天气</string>
+	<string name="temp_trend">温度趋势</string>
+	<string name="forecast">未来天气</string>
+	<string name="humidity">湿度：</string>
+	<string name="wind_direction">风向：</string>
+	<string name="wind_speed">风速：</string>
+	<string name="wind_scale">风力等级：</string>
+	<string name="aqi">空气质量指数：</string>
+	<string name="quality">空气质量：</string>
+	<string name="choosearea_topbar_back">choosearea_topbar_back</string>
+	<string name="weather_topbar_locate">weather_topbar_locate</string>
+	<string name="weather_locate">weather_locate</string>
+	<string name="weather_bottombar_category">weather_bottombar_category</string>
+	<string name="weather_bottombar_settings">weather_bottombar_settings</string>
+	<string name="weather_pic">weather_pic</string>
+	<string name="settings_topbar_back">settings_topbar_back</string>
+	<string name="settings_allow_notif_switch">settings_allow_notif_switch</string>
+	<string name="splash_welcome_image">splash_welcome_image</string>
+	<string name="settings">设置</string>
+	<string name="cancel">取消</string>
+	<string name="refuse">拒绝</string>
+	<string name="accept">允许</string>
+	<string name="set_updfreq">自动更新频率</string>
+	<string name="default_updfreq">2小时</string>
+	<string name="allow_notif">状态栏显示天气</string>
+	<string name="choose_freq">选择频率</string>
+	<string name="notifyTitle">易知天气</string>
+</resources>

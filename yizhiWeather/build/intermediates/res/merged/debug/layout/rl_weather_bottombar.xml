@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:id="@+id/rl_weather_bottombar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageButton 
+        	android:id="@+id/ib_weather_bottombar_select_city"
+            android:layout_width="32dp"
+			android:layout_height="32dp"
+			android:layout_alignParentStart="true"
+			android:layout_marginStart="@dimen/rtl_margin_start"
+			android:layout_centerVertical="true"		
+			android:background="@drawable/selector_button"
+			android:contentDescription="@string/weather_bottombar_category"/>
+        <LinearLayout 
+            android:id="@+id/ll_weather_bottombar_dots_group"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp" 
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">            
+        </LinearLayout>
+        
+        <ImageButton 
+            android:id="@+id/ib_weather_bottombar_settings"
+			android:layout_width="32dp"
+			android:layout_height="32dp"
+			android:layout_alignParentEnd="true"
+			android:layout_marginEnd="@dimen/rtl_margin_end"
+			android:layout_centerVertical="true"
+			android:background="@drawable/selector_button"
+			android:contentDescription="@string/weather_bottombar_settings" />	
+
+</RelativeLayout>

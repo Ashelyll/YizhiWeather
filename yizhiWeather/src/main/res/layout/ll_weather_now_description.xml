@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:id="@+id/ll_weather_now_description"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/tv_weather_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/rtl_margin_start"
+        android:layout_marginEnd="@dimen/rtl_margin_end"
+        android:layout_gravity="center_vertical"
+        android:gravity="start"
+        android:maxLines="2"
+        android:textSize="15sp"
+        android:textColor="@color/weatherTextColor"/>
+    
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "G:\\AndroidStudio\\weatherViewLibrary\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 501,
+                    "endColumn": 44,
+                    "endOffset": 541
+                },
+                "from": {
+                    "file": "G:\\AndroidStudio\\weatherViewLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 501,
+                        "endColumn": 44,
+                        "endOffset": 541
+                    }
+                }
+            }
+        ]
+    }
+]

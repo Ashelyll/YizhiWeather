@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_settings_topbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp" >
+    <ImageButton
+        android:id="@+id/ib_settings_topbar_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="@dimen/rtl_margin_start"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/selector_button"
+        android:contentDescription="@string/settings_topbar_back"/>
+    <TextView 
+        android:id="@+id/tv_settings_topbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+    	android:gravity="center_vertical"
+    	android:textSize="@dimen/title_text_size"
+    	android:textColor="@color/settingsTextColor"
+    	android:text="@string/settings"/>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\AndroidStudio\\weatherViewLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "G:\\AndroidStudio\\weatherViewLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\weatherViewLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\snow.png",
+        "source": "G:\\AndroidStudio\\weatherViewLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\snow.png"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\weatherViewLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\rain.png",
+        "source": "G:\\AndroidStudio\\weatherViewLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\rain.png"
+    }
+]

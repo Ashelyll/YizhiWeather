@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\yizhiWeather\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="G:\AndroidStudio\yizhiWeather\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.0_40b416101f1fd0955c2d93306c87716066c12da2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\yizhiWeather\build\intermediates\exploded-aar\AndroidStudio\weatherViewLibrary\unspecified\jars\libs\LeonidsLib-1.3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0665cd136aaabd49e896ec1487d7beff47dbd09f">
+        <dex dex="G:\AndroidStudio\yizhiWeather\build\intermediates\pre-dexed\debug\LeonidsLib-1.3.2_7ff2358e5c0098d52bdbd8bc649e4812fe76927d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\yizhiWeather\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="G:\AndroidStudio\yizhiWeather\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.0_dc2650c2f86341bf074d744e7403be8241fca93b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\yizhiWeather\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="G:\AndroidStudio\yizhiWeather\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.0_186695b28419e3354f236c25ecb8bce4ccc8d280.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\yizhiWeather\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="G:\AndroidStudio\yizhiWeather\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.0_f038f268254675740a81203de16e193db1bc8799.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\yizhiWeather\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="G:\AndroidStudio\yizhiWeather\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.0_eb2490a4bb936da79424d6553513aa1c063314ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\yizhiWeather\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="G:\AndroidStudio\yizhiWeather\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.0_41e88330d19e054259d2be897ebc8b3232f51246.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\yizhiWeather\libs\AMap_Location_V3.3.0_20170118.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="299ccce875c1bbd5eb2802923ae89946e22b7ee6">
+        <dex dex="G:\AndroidStudio\yizhiWeather\build\intermediates\pre-dexed\debug\AMap_Location_V3.3.0_20170118_7df1034aec9049e96684df936b40fe29829f36bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\yizhiWeather\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="G:\AndroidStudio\yizhiWeather\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.0_4dd1c2c8e833af416a247e182a2e12e49d9ef31d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="G:\AndroidStudio\yizhiWeather\build\intermediates\pre-dexed\debug\support-annotations-25.3.0_40eaf80908651eec7dcf5ecb728264d06e78c464.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\yizhiWeather\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="G:\AndroidStudio\yizhiWeather\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.0_a6488e465474f441f5eea67636d6394139d3a820.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\yizhiWeather\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="G:\AndroidStudio\yizhiWeather\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.0_4495b3f899ed7dfee61a3b105a19b2b4406d531f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\yizhiWeather\build\intermediates\exploded-aar\AndroidStudio\weatherViewLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf492d6c23f6f25cb2c7d880f03dfe2a4b66e392">
+        <dex dex="G:\AndroidStudio\yizhiWeather\build\intermediates\pre-dexed\debug\AndroidStudio-weatherViewLibrary-unspecified_105ab93019b3821a46ede56d5bf902b7e0a4102c.jar" />
+    </item>
+
+</items>

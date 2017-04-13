@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_choosearea_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+        <include layout="@layout/rl_choosearea_topbar"/>
+
+        <View
+            android:id="@+id/weather_divider_6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/dividerColor"/>
+
+        <ListView
+            android:id="@+id/lv_choosearea_area_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/rtl_margin_start"
+            android:layout_marginEnd="@dimen/rtl_margin_end"
+            android:scrollbars="none"
+            android:divider="@null"
+            android:overScrollMode="never">
+        </ListView>
+</LinearLayout>

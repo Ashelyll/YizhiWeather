@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TrendView">
+        <attr name="textColor" format="reference|color"/>
+        <attr name="textSize"  format="dimension"/>
+        <attr name="highLineColor" format="reference|color"/>
+        <attr name="lowLineColor"  format="reference|color"/>        
+        <attr name="highDotColor"  format="reference|color"/>
+        <attr name="lowDotColor"   format="reference|color"/>
+    </declare-styleable>
+    
+</resources>

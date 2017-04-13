@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_settings_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+	<include layout="@layout/rl_settings_topbar"/>
+
+		<View
+			android:id="@+id/weather_divider_6"
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:layout_marginTop="2dp"
+			android:background="@color/dividerColor"/>
+
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginTop="@dimen/rtl_margin_top"
+			android:scrollbars="none">
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="@dimen/rtl_margin_start"
+				android:layout_marginEnd="@dimen/rtl_margin_end"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/ll_settings_set_updfreq"
+					android:layout_width="match_parent"
+					android:layout_height="50dp"
+					android:clickable="true"
+					android:background="@drawable/selector_bar"
+					android:orientation="vertical">
+
+					<TextView
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="2"
+						android:gravity="center_vertical|start"
+						android:maxLines="1"
+						android:textSize="@dimen/item_text_size"
+						android:textColor="@color/settingsTextColor"
+						android:text="@string/set_updfreq" />
+					<TextView
+						android:id="@+id/tv_settings_current_updfreq"
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="1"
+						android:gravity="center_vertical|start"
+						android:maxLines="1"
+						android:textSize="12sp"
+						android:textColor="@color/settingsTextColor"/>
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="1dp"
+					android:layout_marginTop="2dp"
+					android:background="@color/dividerColor"/>
+
+				<RelativeLayout
+					android:id="@+id/rl_settings_allow_notif"
+					android:layout_width="match_parent"
+					android:layout_height="50dp"
+					android:clickable="true"
+					android:background="@drawable/selector_bar">
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentStart="true"
+						android:layout_centerVertical="true"
+						android:gravity="center_vertical|start"
+						android:maxLines="1"
+						android:textSize="@dimen/item_text_size"
+						android:textColor="@color/settingsTextColor"
+						android:text="@string/allow_notif"/>
+					<ImageButton
+						android:id="@+id/ib_settings_notif_switch"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentEnd="true"
+						android:layout_centerVertical="true"
+						android:background="@color/colorFullTransparent"
+						android:contentDescription="@string/settings_allow_notif_switch"/>
+				</RelativeLayout>
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="1dp"
+					android:layout_marginTop="2dp"
+					android:background="@color/dividerColor"/>
+			</LinearLayout>
+		</ScrollView>
+</LinearLayout>

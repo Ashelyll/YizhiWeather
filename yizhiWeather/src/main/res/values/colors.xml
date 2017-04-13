@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorTranslucent">#80000000</color>
+	<color name="colorFullTransparent">#00000000</color>
+	
+	<color name="buttonPressed">#7f97CBFF</color>
+	<color name="dividerColor">#3ee6e6e6</color>	
+	<color name="selectorBarBg">#5e000000</color>
+	
+	<color name="weatherTextColor">#C8ffffff</color>
+	<color name="chooseAreaTextColor">#C8ffffff</color>
+	<color name="settingsTextColor">#C8ffffff</color>
+	<color name="splashTextColor">#707070</color>
+	
+	<color name="swipeRefreshTextColor">#FFF8DC</color>
+	<color name="swipeRefreshBgColor">#34000000</color>
+	<color name="swipeRefreshIconColor">#e6e6e6</color>
+	
+	<color name="defaultHighColor">#FAFAFA</color>
+	<color name="defaultLowColor">#FAFAFA</color>
+</resources>

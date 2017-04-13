@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "G:\\AndroidStudio\\yizhiWeather\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "G:\\AndroidStudio\\yizhiWeather\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudio\\yizhiWeather\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "G:\\AndroidStudio\\yizhiWeather\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    }
+]

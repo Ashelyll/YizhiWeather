@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WeatherView"><attr format="enum" name="startingWeather">
+            <enum name="SUN" value="2"/>
+            <enum name="RAIN" value="0"/>
+            <enum name="SNOW" value="1"/>
+        </attr><attr format="integer" name="lifeTime"/><attr format="integer" name="fadeOutTime"/><attr format="integer" name="numParticles"/><attr format="integer" name="fps"/><attr format="integer" name="angle"/></declare-styleable>
+    <string name="app_name">library</string>
+</resources>
